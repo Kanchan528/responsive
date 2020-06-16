@@ -211,14 +211,14 @@ footer{
     height: 150vh;
   }
   .services{
-    height: 180vh;
+    height: 190vh;
   }
   .btn-submit{
     margin-right: 30px;
   }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 375px){
   .header{
     margin-top: -10vh;
     height: 110vh;
