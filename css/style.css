@@ -188,8 +188,37 @@ footer{
     margin: 80px 3%;
   }
 }
+@media screen and (max-width: 400px){
+  .header{
+    margin-top: -10vh;
+    height: 130vh;
+  }
+  .header-content h2{
+    font-size: 15px;
+  }
+  .header-content h2 span{
+    line-height: 2px;
+  }
+  .btn{
+    display: block;
+    margin: 5px;
+    padding: 2px;  
+  }
+  .header-content h1, .intro-content h1, .contact-section h1{
+    font-size: 30px;
+  }
+  .intro{
+    height: 150vh;
+  }
+  .services{
+    height: 200vh;
+  }
+  .btn-submit{
+    margin-right: 30px;
+  }
+}
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 350px){
   .header{
     margin-top: -10vh;
     height: 110vh;
