@@ -188,20 +188,20 @@ footer{
     margin: 80px 3%;
   }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
   .header{
     margin-top: -10vh;
     height: 130vh;
   }
   .header-content h2{
-    font-size: 15px;
+    font-size: 16px;
   }
   .header-content h2 span{
     line-height: 2px;
   }
   .btn{
     display: block;
-    margin: 5px;
+    margin: 10px;
     padding: 2px;  
   }
   .header-content h1, .intro-content h1, .contact-section h1{
@@ -211,7 +211,7 @@ footer{
     height: 150vh;
   }
   .services{
-    height: 200vh;
+    height: 180vh;
   }
   .btn-submit{
     margin-right: 30px;
